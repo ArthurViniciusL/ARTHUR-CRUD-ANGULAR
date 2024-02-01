@@ -1,0 +1,15 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-confirms {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+}
+button {
+    margin: 5px;
+}
+
