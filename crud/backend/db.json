@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": "5",
+      "name": "Smart TV LG 42 polegadas",
+      "price": 500
+    },
+    {
+      "id": "7",
+      "name": "Kindle Paperwhite",
+      "price": 700
+    },
+    {
+      "id": "8",
+      "name": "Cadeira de Escritório Ergonômica",
+      "price": 800
+    },
+    {
+      "id": "9",
+      "name": "Mochila Samsonite para Notebook",
+      "price": 900
+    },
+    {
+      "id": "11",
+      "name": "Celular genérico ",
+      "price": 700.21
+    },
+    {
+      "id": "25d5",
+      "name": "Teste",
+      "price": "300"
+    },
+    {
+      "id": "7b2d",
+      "name": "Teste 2",
+      "price": "34"
+    }
+  ]
+}
