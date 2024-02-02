@@ -4,10 +4,8 @@
 
 .customiza-sidenav {
     width: 12%;
-    height: 90vh;
+    height: 80vh;
     margin-top: 20px;
-    margin-right: 100px;
-    margin-bottom: 40px;
     border-radius: var(--crudBorderRadius);
     background-color: var(--crudSectionColor);
 }

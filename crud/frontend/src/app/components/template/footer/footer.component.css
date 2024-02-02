@@ -1,12 +1,5 @@
-.footer {
-    /* bottom: 0;
-    position: fixed; */
-    /* align-items: center; eixo x */
-    /* justify-content: end; */
+.footer-container {
+    margin-top: 20px;
+    border-radius: var(--crudBorderRadius);
+    background-color: yellow;
 }
-
-/* p {
-    margin: 0;
-    font-size: large;
-    font-weight: bolde;
-} */
