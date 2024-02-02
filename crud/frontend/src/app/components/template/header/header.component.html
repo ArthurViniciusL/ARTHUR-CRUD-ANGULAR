@@ -1,16 +1,18 @@
-<mat-toolbar class="header mat-elevation-z0">
-    
-    <span class="title-group">
-        <a routerLink="routeUrl">
-            <i class="material-icons">
-                {{icon}}
-            </i>
-            <!-- {{title}} -->
-        </a>
-    </span>
-    <span>
-        <a routerLink="/">
-            <img class="my-icon" src="./assets/img/logo-marca.svg" alt="" srcset="">
-        </a>
-    </span>
+<!-- class="mat-elevation-z0" -->
+<mat-toolbar class="header-container">
+    <header class="header">
+        <span class="title-group">
+            <a routerLink="routeUrl">
+                <span class="material-icons">
+                    {{icon}}
+                </span>
+                <!-- {{title}} -->
+            </a>
+        </span>
+        <span>
+            <a routerLink="/">
+                <img class="my-icon" src="./assets/img/logo-marca.svg" alt="" srcset="">
+            </a>
+        </span>
+    </header>
 </mat-toolbar>
