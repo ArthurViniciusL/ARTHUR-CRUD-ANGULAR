@@ -1,12 +1,12 @@
 .footer {
-    bottom: 0;
-    position: fixed;
-    align-items: center; /*eixo x*/
-    justify-content: end;
+    /* bottom: 0;
+    position: fixed; */
+    /* align-items: center; eixo x */
+    /* justify-content: end; */
 }
 
-p {
+/* p {
     margin: 0;
     font-size: large;
     font-weight: bolde;
-}
+} */

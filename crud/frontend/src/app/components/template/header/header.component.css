@@ -1,13 +1,28 @@
 .header-container {
-    border: red solid 1px;
-    background-color: transparent;
+    height: 5%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: var(--crudComponentBorderRadius);
+    background-color: var(--crudSectionColor);
 }
 
-.header {
-    
-} 
+.icons-header-group {
+    width: 5vh;
+    height: 40px;
+    margin: 10px;
+}
 
-
-.material-icons {
+.customize-header-icon {
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    text-align: center;
     color: var(--crudIconViewYellow);
+}
+
+.my-icon {
+    width: 100%;
+    height: 100%;
 }

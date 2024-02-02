@@ -1,4 +1,4 @@
-.material-icons {
+/* .material-icons {
     width: 30%;
     min-height: 30%;
     border: solid red 1px;
@@ -7,13 +7,13 @@
 
 .sidenav {
     background-color: blueviolet;
-}
+} */
 
 
 .content {
-    display: flex;
-    align-items: center; /*eixo x*/
-    justify-content: center; /*eixo y*/
-    flex-direction: row;
-    background-color: red;
+    /* display: flex; */
+    /* align-items: center; eixo x */
+    /* justify-content: center; eixo y */
+    /* flex-direction: row;
+    background-color: red; */
 }
