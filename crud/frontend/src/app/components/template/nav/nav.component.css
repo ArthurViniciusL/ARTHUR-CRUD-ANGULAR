@@ -1,19 +1,19 @@
+.material-icons {
+    width: 30%;
+    min-height: 30%;
+    border: solid red 1px;
+    color: #000000;
+}
+
 .sidenav {
-    width: 10%;
     background-color: blueviolet;
 }
 
-.sidenav a {
-    color: #FFFFFF;
-}
-
-
-.sidenav i {
-    padding-right: 10px;
-}
 
 .content {
-    padding: 20px;
-    
-    background-color: #FFFFFF;
+    display: flex;
+    align-items: center; /*eixo x*/
+    justify-content: center; /*eixo y*/
+    flex-direction: row;
+    background-color: red;
 }

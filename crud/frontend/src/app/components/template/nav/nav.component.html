@@ -1,18 +1,34 @@
 <mat-sidenav-container class="container">
     <!--Ativando a visibilidade da side bar:-->
-    <mat-sidenav class="sidenav" mode="side" opened fixedInViewport="true" fixedTopGap="64">
+    <mat-sidenav id="barra" class="sidenav" mode="side" opened fixedInViewport="true" fixedTopGap="64">
         <mat-nav-list class="nav-list">
-            <a mat-list-item routerLink="/" >
-                <i class="material-icons"> home </i>
-                inicio
-            </a>
+            <div>
+                <a mat-list-item routerLink="/">
+                    <span class="material-icons">home</span>
+                    Início
+                </a>
+            </div>
+
             <a mat-list-item routerLink="/products">
-                <i class="material-icons"> storefront </i>
+                <span class="material-icons">storefront</span>
                 Produtos
+            </a>
+
+            <a mat-list-item routerLink="/">
+                <span class="material-icons">policy</span>
+                Licença
+            </a>
+
+            <a mat-list-item routerLink="">
+                <span class="material-icons">info</span>
+                Sobre
             </a>
         </mat-nav-list>
     </mat-sidenav>
-    <mat-sidenav-content class="content" >
+
+    <!--Menu de exibição-->
+    <mat-sidenav-content class="content">
         <router-outlet></router-outlet>
     </mat-sidenav-content>
+    
 </mat-sidenav-container>

@@ -1,4 +1,4 @@
-Repositório do curso: https://github.com/cod3rcursos/angular-crud
+Repositório do projeto: https://github.com/ArthurViniciusL/CRUD-ANGULAR.git
 
 # Introdução
 > Esse resumo é também parte da documentação de um projeto que irei implementar com Angular. Se trata de um CRUD focado no estudo do Angular 17. A parte de back-end do projeto será algo mais simples e para constrir-la será usado JSON Server.

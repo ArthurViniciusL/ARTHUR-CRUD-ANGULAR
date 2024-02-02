@@ -1,12 +1,12 @@
 .footer {
-    position: fixed;
     bottom: 0;
-
-    display: flex;
+    position: fixed;
+    align-items: center; /*eixo x*/
     justify-content: end;
 }
 
-span {
-    font-size: medium;
-    font-weight: lighter;
+p {
+    margin: 0;
+    font-size: large;
+    font-weight: bolde;
 }

@@ -1,27 +1,12 @@
-.hearder {
-    display: flex;
-    align-items: center;
-
-}
-
-.hearder a {
-    text-decoration: none;
-}
-
-.logo {
-    max-width: 50px;
-}
-
-/*
 mat-toolbar {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     background-color: #ffff;
 }
-*/
 
-.title-group {
-    padding-left:20px;
-}
-
-.title-group i {
-    padding-right:20px;
+.my-icon {
+    width: 35%;
 }
