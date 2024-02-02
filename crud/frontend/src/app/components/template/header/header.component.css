@@ -1,11 +1,12 @@
+
 .header-container {
     height: 5%;
-    margin: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: var(--crudComponentBorderRadius);
+    border-radius: var(--crudBorderRadius);
     background-color: var(--crudSectionColor);
+
 }
 
 .icons-header-group {

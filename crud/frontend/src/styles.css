@@ -1,25 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
 
 :root {
+    --crudTextColor: #000000;
     --crudBackgroundColor: #FAFAFA;
     --crudSectionColor: #FFFFFF;
     --crudComponentBackground: #EBEBEB;
     --crudIconViewYellow: #FFBD08;
     --crudIconViewBlue: #174AE4;
     --crudIconViewRed: #FF5252;
-    --crudComponentBorderRadius: 10px;
+    --crudBorderRadius: 10px;
+    --crudComponentBorderRadius: 5px;
 }
 
 html,
 body {
-    height: 100vh;
+    margin: 10px;
+    /* height: 100vh; */
 }
 
 body {
-    margin: 0;
-    background-color: var(--crudBackgroundColor);
-    /* border: 2px blue solid; */
 
+    background-color: var(--crudBackgroundColor);
     font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
