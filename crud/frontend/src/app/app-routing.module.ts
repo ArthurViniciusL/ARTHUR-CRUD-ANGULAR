@@ -5,6 +5,8 @@ import { ProductUpdateComponent } from './components/product/product-update/prod
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+import { LicenseComponent } from './views/license/license.component';
+import { AboutCrudComponent } from './views/about-crud/about-crud.component';
 
 
 const routes: Routes = [
@@ -27,6 +29,14 @@ const routes: Routes = [
   {
     path: 'products/delete/:id',
     component: ProductDeleteComponent
+  },
+  {
+    path: 'license',
+    component: LicenseComponent
+  },
+  {
+    path: 'about-crud',
+    component: AboutCrudComponent
   }
 ];
 

@@ -1,13 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
 
+:root {
+    --crudBackgroundColor: #FAFAFA;
+    --crudSectionColor: #FFFFFF;
+    --crudComponentBackground: #EBEBEB;
+    --crudIconViewYellow: #FFBD08;
+    --crudIconViewBlue: #174AE4;
+    --crudIconViewRed: #FF5252;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
 body {
     margin: 0;
-    background-color: #c2ff67;
-    border: 5px blue solid;
-
-    /* overflow: auto; */
-
-    height: 100vh;
+    background-color: var(--crudBackgroundColor);
+    /* border: 2px blue solid; */
 
     font-family: Roboto, "Helvetica Neue", sans-serif;
 }
