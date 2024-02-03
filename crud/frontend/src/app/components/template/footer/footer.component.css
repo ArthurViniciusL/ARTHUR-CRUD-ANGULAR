@@ -1,5 +1,15 @@
 .footer-container {
-    margin-top: 20px;
-    border-radius: var(--crudBorderRadius);
-    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    /* border-radius: var(--crudBorderRadius);
+    background-color: var(--crudSectionColor); */
+}
+
+p {
+    font-family: var(--crudFontStyle);
+    color: var(--crudTextColor);
+    font-size: larger;
 }

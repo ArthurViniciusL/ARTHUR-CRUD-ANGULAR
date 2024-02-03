@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 :root {
+    --crudFontStyle: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --crudTextColor: #000000;
     --crudBackgroundColor: #FAFAFA;
     --crudSectionColor: #FFFFFF;
@@ -10,28 +11,38 @@
     --crudIconViewRed: #FF5252;
     --crudBorderRadius: 10px;
     --crudComponentBorderRadius: 5px;
+    --crudWidthMargins: 2%;
+    --crudHeightMargins: 1%;
 }
+
 html,
 body {
-    /* width: 100%;
-    height: 100vh;
-    position: fixed; */
+    width: 100%;
+    height: 90vh;
+}
+
+html {
+    margin-top: var(--crudHeightMargins);
+    margin-bottom: var(--crudHeightMargins);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
 }
 
-body {    
-    /* border: red solid 1px; */
+body {
+    /* background-color: #eb8383; */
     background-color: var(--crudBackgroundColor);
-    font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
 .msg-success {
     background-color: #c2ff67;
-    color: black ;
+    color: black;
 }
 
 .msg-error {
     background-color: red;
-    color: black ;
+    color: black;
 
 }

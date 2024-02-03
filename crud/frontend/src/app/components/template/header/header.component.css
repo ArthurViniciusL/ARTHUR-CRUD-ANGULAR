@@ -1,26 +1,30 @@
-
 .header-container {
-    height: 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: var(--crudBorderRadius);
-    background-color: var(--crudSectionColor);
+    background-color: transparent;
+    /* border-radius: var(--crudBorderRadius);
+    background-color: var(--crudSectionColor); */
 
 }
 
 .icons-header-group {
-    width: 5vh;
-    height: 40px;
-    margin: 10px;
+    height: 50%;
 }
 
 .customize-header-icon {
     width: 100%;
     height: 100%;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     color: var(--crudIconViewYellow);
+}
+
+.customize-header-tile {
+    
+    font-size: larger;
+    /* font-family: ; */
+    color: var(--crudTextColor);
 }
 
 .my-icon {

@@ -49,6 +49,56 @@
       "id": "5g3t",
       "name": "Wireless Router ASUS RT-AX88U",
       "price": 300
+    },
+    {
+      "id": "5g3t",
+      "name": "Wireless Router ASUS RT-AX88U",
+      "price": 300
+    },
+    {
+      "id": "1a2b",
+      "name": "Laptop HP Spectre x360",
+      "price": 1200
+    },
+    {
+      "id": "8h7k",
+      "name": "Smartphone Samsung Galaxy S21",
+      "price": 800
+    },
+    {
+      "id": "3p9q",
+      "name": "Smart TV LG OLED C1",
+      "price": 2000
+    },
+    {
+      "id": "6r4e",
+      "name": "Digital Camera Canon EOS R5",
+      "price": 3500
+    },
+    {
+      "id": "2y5z",
+      "name": "Gaming Console PlayStation 5",
+      "price": 500
+    },
+    {
+      "id": "9u8i",
+      "name": "Smartwatch Apple Watch Series 7",
+      "price": 600
+    },
+    {
+      "id": "4o1l",
+      "name": "Bluetooth Earbuds Sony WF-1000XM4",
+      "price": 250
+    },
+    {
+      "id": "7w6x",
+      "name": "External SSD Samsung T5",
+      "price": 150
+    },
+    {
+      "id": "0z2m",
+      "name": "4K Monitor Dell UltraSharp U2720Q",
+      "price": 700
     }
   ]
 }

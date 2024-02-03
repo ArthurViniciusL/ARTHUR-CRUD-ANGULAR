@@ -1,0 +1,8 @@
+span {
+    overflow: hidden;
+}
+
+/* ocultar a barra de rolagem do navegador */
+span::-webkit-scrollbar {
+    display: none;
+}

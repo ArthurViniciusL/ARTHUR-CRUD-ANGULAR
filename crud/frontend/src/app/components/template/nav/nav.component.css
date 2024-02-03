@@ -1,18 +1,19 @@
-.nav-container{
+.nav-container {
+    /* border: #91ff00 1px solid; */
+    margin-left: var(--crudWidthMargins);
+    margin-right: var(--crudWidthMargins);
     background-color: transparent;
 }
 
 .customiza-sidenav {
-    width: 12%;
-    height: 80vh;
-    margin-top: 20px;
+    /* border: black 8px solid; */
+    width: 16%;
     border-radius: var(--crudBorderRadius);
     background-color: var(--crudSectionColor);
 }
 
 .nav-list {
     height: 90%;
-    /* border: red dashed 1px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,21 +21,19 @@
 }
 
 .btns-components-navbar {
-
     min-width: 80%;
     height: 55px;
     border-radius: var(--crudComponentBorderRadius);
     margin-bottom: 10px;
 
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: flex-start;
 
     border: none;
     background-color: var(--crudComponentBackground);
 
     /* border: red 1px solid; */
-
 }
 
 .customize-icon {
@@ -42,27 +41,51 @@
 }
 
 .content-in-btn {
+    width: 100%;
     display: flex;
     align-items: baseline;
-    justify-content: center;
     font-size: large;
     text-decoration: none;
     color: var(--crudTextColor);
 }
 
-.content {
-    margin-top: 20px;
-    display: flex;
-    align-items: end;
-    justify-content: center;
-    flex-direction: column;
-}
-.view-container {
-    width: 97%;
-    height: 80vh;
-    
-    border-radius: var(--crudBorderRadius);
-    background-color: red;
+/* .container-mat-sidenav {
+    /* border: black 8px solid; 
 
-    border: blue dashed 1px;
+} */
+
+.content {
+    margin-left: 2%;
+}
+
+/* ocultar a barra de rolagem do navegador  em .content */
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+.view-container {
+    overflow: hidden;
+    width: 100%;
+    height: 96vh;
+
+    border-radius: var(--crudBorderRadius);
+    background-color: var(--crudSectionColor);
+
+    /* border: blue dashed 1px; */
+}
+
+app-header,
+app-footer {
+    height: 50px;
+}
+
+.container-router-outlet {
+    width: 96%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+/* ocultar a barra de rolagem do navegador  em .container-router-outlet */
+.container-router-outlet::-webkit-scrollbar {
+    display: none;
 }
