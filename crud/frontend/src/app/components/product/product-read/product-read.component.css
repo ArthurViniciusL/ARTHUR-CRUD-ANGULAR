@@ -1,21 +1,19 @@
-.full-width-table {
+/* .full-width-table {
     width: 100%;
-}
+}  */
 
 table {
     width: 100%;
-}
-
+} 
+/* 
 table,
 tr {
     color: #000000;
     background-color: #ffffff;
-
-
 }
 
 .abc {
-    border-bottom: 0.1px solid red; /* Altere a largura e a cor conforme necessário */
+    border-bottom: 0.1px solid red;
     
 }
 
@@ -23,4 +21,4 @@ th {
     border: 0.5px;
     border-color: blue;
     border-style: solid;
-}
+} */

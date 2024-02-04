@@ -1,3 +1,16 @@
+div {
+    width: 165vh;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: red solid 1px;
+}
+mat-card {
+    width: 100%;
+}
+
 .home .title {
     font-size: larger;
     font-weight: bold;  
