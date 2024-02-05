@@ -18,6 +18,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
 }
 
 .btns-components-navbar {
@@ -33,7 +34,12 @@
     border: none;
     background-color: var(--crudComponentBackground);
 
-    /* border: red 1px solid; */
+    transition: background-color 0.10s ease;
+}
+
+.btns-components-navbar:hover {
+    /* background-color: var(--crudBackgroundColor) */
+    background-color: var(--crudIconViewYellow)
 }
 
 .customize-icon {
@@ -44,9 +50,16 @@
     width: 100%;
     display: flex;
     align-items: baseline;
-    font-size: large;
+    font-size: medium;
+    font-weight: bold;
+    font-family: var(--crudFontStyle);
     text-decoration: none;
     color: var(--crudTextColor);
+}
+
+.content-in-btn:hover {
+    color: #ffff;
+    font-size: large;
 }
 
 /* .container-mat-sidenav {
@@ -70,7 +83,6 @@
 
     border-radius: var(--crudBorderRadius);
     background-color: var(--crudSectionColor);
-
     /* border: blue dashed 1px; */
 }
 
