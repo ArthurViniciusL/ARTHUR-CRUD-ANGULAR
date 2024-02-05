@@ -1,7 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'OpenSans';
+    src: url('assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf');
+}
 
 :root {
-    --crudFontStyle: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --crudFontStyle: 'OpenSans';
     --crudTextColor: #000000;
     --crudBackgroundColor: #FAFAFA;
     --crudSectionColor: #FFFFFF;
@@ -29,6 +33,9 @@ html {
     align-items: center;
     justify-content: center;
     
+}
+mat-card {
+    box-shadow: none;
 }
 
 body {
