@@ -1,17 +1,8 @@
-.container-home {
-    width: 165vh;
-    height: 85vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    /* border: red solid 1px; */
-}
 
 mat-card {
     margin: 0;
     box-shadow: none;
-    background-color: transparent;
+    background: transparent;
 
     display: flex;
     flex-direction: row;

@@ -4,7 +4,7 @@ import { HeaderService } from '../../components/template/header/header.service';
 @Component({
   selector: 'app-license',
   templateUrl: './license.component.html',
-  styleUrl: './license.component.css'
+  styleUrls: ['./license.component.css', '/src/styles.css']
 })
 export class LicenseComponent {
 
