@@ -13,8 +13,8 @@
     --crudIconViewYellow: #FFBD08;
     --crudIconViewBlue: #174AE4;
     --crudIconViewRed: #FF5252;
-    --crudBorderRadius: 10px;
-    --crudComponentBorderRadius: 5px;
+    --crudBorderRadius: 15px;
+    --crudComponentBorderRadius: 10px;
     --crudWidthMargins: 1%;
     --crudHeightMargins: 1%;
 }

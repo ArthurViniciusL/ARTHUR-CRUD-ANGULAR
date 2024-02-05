@@ -23,7 +23,8 @@
 .customize-header-tile {
     
     font-size: larger;
-    /* font-family: ; */
+    font-weight: bold;
+    font-family: var(--crudFontStyle);
     color: var(--crudTextColor);
 }
 

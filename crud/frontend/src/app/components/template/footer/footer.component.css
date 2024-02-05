@@ -9,7 +9,14 @@
 }
 
 p {
+    font-size: medium;
     font-family: var(--crudFontStyle);
     color: var(--crudTextColor);
-    font-size: larger;
+}
+
+a {
+    text-decoration: none;
+    color: var(--crudTextColor);
+    font-weight: bold;
+    text-decoration: underline black;
 }

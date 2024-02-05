@@ -38,8 +38,9 @@
 }
 
 .btns-components-navbar:hover {
-    /* background-color: var(--crudBackgroundColor) */
-    background-color: var(--crudIconViewYellow)
+    /* background-color: var(--crudIconViewYellow); */
+
+    background-color: #000000;
 }
 
 .customize-icon {
@@ -55,6 +56,8 @@
     font-family: var(--crudFontStyle);
     text-decoration: none;
     color: var(--crudTextColor);
+
+    transition: background-color 0.10s ease;
 }
 
 .content-in-btn:hover {
