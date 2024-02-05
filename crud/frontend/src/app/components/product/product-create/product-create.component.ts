@@ -1,7 +1,9 @@
 import { Product } from './../product.model';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { ProductService } from '../product.service';
 import { Router } from '@angular/router';
+import { HeaderService } from '../../template/header/header.service';
+import { MatInput } from '@angular/material/input';
 
 @Component({
   selector: 'app-product-create',
@@ -10,9 +12,17 @@ import { Router } from '@angular/router';
 })
 export class ProductCreateComponent implements OnInit {
 
-  product: Product  = {} as Product;
+  product: Product = {} as Product;
 
-  constructor(private productService: ProductService, private router: Router) {  }
+  @ViewChild('food') matInput: MatInput = {} as MatInput;
+
+  constructor(private productService: ProductService, private router: Router, private headerService: HeaderService) {
+    this.headerService.headerData = {
+      title: 'Cadastrar um novo Produto',
+      icon: 'table_chart',
+      routeUrl: ''
+    }
+  }
 
   ngOnInit(): void { }
 

@@ -3,9 +3,6 @@
     align-items: center;
     justify-content: space-between;
     background-color: transparent;
-    /* border-radius: var(--crudBorderRadius);
-    background-color: var(--crudSectionColor); */
-
 }
 
 .icons-header-group {
@@ -24,6 +21,7 @@
     
     font-size: larger;
     font-weight: bold;
+    text-transform: capitalize;
     font-family: var(--crudFontStyle);
     color: var(--crudTextColor);
 }

@@ -14,7 +14,7 @@ export class ProductCrudComponent {
   // injetando as dependencias
   constructor(private router: Router, private headerService: HeaderService) {
     this.headerService.headerData = {
-      title: 'Cadastro',
+      title: 'Produtos',
       icon: 'storefront',
       routeUrl: '/products'
     }
