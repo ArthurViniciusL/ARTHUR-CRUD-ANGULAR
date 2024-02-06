@@ -15,7 +15,7 @@ export class ProductDeleteComponent implements OnInit {
 
   constructor(private productService: ProductService, private router: Router, private urlRoute: ActivatedRoute, private headerSercvice: HeaderService ) {
     this.headerSercvice.headerData = {
-      title: 'Deletar produto',
+      title: 'Excluir produto',
       icon: 'delete',
       routeUrl: ''
     }
