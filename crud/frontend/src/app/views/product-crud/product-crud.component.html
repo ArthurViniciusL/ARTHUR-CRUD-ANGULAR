@@ -1,6 +1,12 @@
-<div>
-    <button mat-raised-button (click)="navigateToProductCreate()">
-        novo produto
+<mat-card class="container-view ">
+
+    <div class="tab">
+        <app-product-read></app-product-read>
+    </div>
+
+    <button id="btn_create_product" (click)="navigateToProductCreate()">
+        Cadastrar produto
+        <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="add_circle_outline"></mat-icon>
     </button>
-    <app-product-read></app-product-read>
-</div>
+
+</mat-card>

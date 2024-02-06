@@ -33,6 +33,7 @@ export class ProductService {
     return EMPTY;
   }
 
+
   read(): Observable<Product[]> {
     return this.http.get<Product[]>(this.BASE_URL);
   }

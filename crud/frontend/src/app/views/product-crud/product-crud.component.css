@@ -1,6 +1,22 @@
-
-div {
+/* div {
     width: 165vh;
     height: 90vh;
     border: 2px red dashed;
+} */
+
+#btn_create_product {
+    border: none;
+    width: 50%;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+    color: #fff;
+    background-color: var(--crudIconViewYellow);
+    font-family: var(--crudFontStyle);
+    border-radius: var(--crudComponentBorderRadius);
+}
+
+#btn_create_product:hover {
+    text-decoration: underline;
+    background-color: var(--crudIconViewBlue);
 }

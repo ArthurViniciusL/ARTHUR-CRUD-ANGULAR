@@ -6,7 +6,7 @@ import { HeaderService } from '../../components/template/header/header.service';
 @Component({
   selector: 'app-product-crud',
   templateUrl: './product-crud.component.html',
-  styleUrl: './product-crud.component.css'
+  styleUrls: ['./product-crud.component.css', '/src/app/components/product/styles/products-forms-styles.css','/src/app/components/product/styles/products-forms-buttons-styles.css','/src/styles.css']
 })
 
 export class ProductCrudComponent {
