@@ -1,0 +1,47 @@
+.container-btn {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.customize-buttons {
+    border: none;
+    width: 150px;
+    /* width: 125px; */
+    height: 45px;
+    color: #fff;
+    font-size: medium;
+    font-weight: bold;
+    font-family: var(--crudFontStyle);
+    border-radius: var(--crudComponentBorderRadius);
+    background-color: black;
+
+    transition: all 0.4 ease-out;
+}
+
+.customize-buttons:hover {
+    font-size: large;
+}
+
+#confirm {
+    margin-right: 35px;
+    /* opacity: 0.9; */
+}
+
+#cancel {
+    /* opacity: 0.8; */
+}
+
+#confirm:hover {
+    background-color: var(--crudIconViewBlue);
+    /* opacity: 1; */
+    
+    
+}
+
+#cancel:hover {
+    /* opacity: 1; */
+    background-color: var(--crudIconViewRed);
+}

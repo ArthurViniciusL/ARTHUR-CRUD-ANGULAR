@@ -8,7 +8,7 @@ import { MatInput } from '@angular/material/input';
 @Component({
   selector: 'app-product-create',
   templateUrl: './product-create.component.html',
-  styleUrls: ['product-create.component.css']
+  styleUrls: ['product-create.component.css', 'product-create-buttons.component.css', '/src/styles.css']
 })
 export class ProductCreateComponent implements OnInit {
 

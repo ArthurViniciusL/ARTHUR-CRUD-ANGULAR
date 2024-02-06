@@ -17,13 +17,21 @@
     color: var(--crudIconViewYellow);
 }
 
-.customize-header-tile {
-    
+button {
+    border: none;
+    background: transparent;
+}
+
+.customize-header-title {
     font-size: larger;
-    font-weight: bold;
-    text-transform: capitalize;
+    font-weight: bolder;
+
     font-family: var(--crudFontStyle);
     color: var(--crudTextColor);
+}
+
+.customize-header-title::first-letter {
+    text-transform: uppercase;
 }
 
 .my-icon {

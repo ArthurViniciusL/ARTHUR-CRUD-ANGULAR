@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { HeaderService } from '../../components/template/header/header.service';
+import { BehaviorSubject } from 'rxjs';
 
 @Component({
   selector: 'app-about-crud',
@@ -13,5 +14,5 @@ export class AboutCrudComponent {
         icon: 'info',
         routeUrl: ''
       }
-    }  
+    } 
   }
