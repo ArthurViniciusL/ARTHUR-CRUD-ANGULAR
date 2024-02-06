@@ -1,3 +1,4 @@
+import { HeaderService } from './../../template/header/header.service';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ProductService } from '../product.service';
@@ -6,13 +7,19 @@ import { Product } from './../product.model';
 @Component({
   selector: 'app-product-delete',
   templateUrl: './product-delete.component.html',
-  styleUrl: './product-delete.component.css'
+  styleUrls: ['./product-delete.component.css', '/src/app/components/product/styles/products-forms-styles.css','/src/app/components/product/styles/products-forms-buttons-styles.css','/src/styles.css']
 })
 export class ProductDeleteComponent implements OnInit {
 
   product: Product = {} as Product;
 
-  constructor(private productService: ProductService, private router: Router, private urlRoute: ActivatedRoute) { }
+  constructor(private productService: ProductService, private router: Router, private urlRoute: ActivatedRoute, private headerSercvice: HeaderService ) {
+    this.headerSercvice.headerData = {
+      title: 'Deletar produto',
+      icon: 'delete',
+      routeUrl: ''
+    }
+  }
 
   ngOnInit(): void {
     // + para converter em inteiro;

@@ -7,7 +7,7 @@ import { HeaderService } from '../../template/header/header.service';
 @Component({
   selector: 'app-product-update',
   templateUrl: './product-update.component.html',
-  styleUrls: ['./product-update.component.css', 'product-update-buttons.component.css', '/src/styles.css']
+  styleUrls: ['./product-update.component.css', '/src/app/components/product/styles/products-forms-styles.css', '/src/app/components/product/styles/products-forms-buttons-styles.css', '/src/styles.css']
 })
 export class ProductUpdateComponent implements OnInit {
 

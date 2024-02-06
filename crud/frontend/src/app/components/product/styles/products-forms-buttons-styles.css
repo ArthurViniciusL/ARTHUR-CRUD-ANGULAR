@@ -30,9 +30,9 @@
     /* opacity: 0.9; */
 }
 
-#cancel {
-    /* opacity: 0.8; */
-}
+/* #cancel {
+    opacity: 0.8;
+} */
 
 #confirm:hover {
     background-color: var(--crudIconViewBlue);

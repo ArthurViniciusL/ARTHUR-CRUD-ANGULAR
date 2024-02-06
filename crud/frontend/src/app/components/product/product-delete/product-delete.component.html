@@ -1,5 +1,5 @@
-<mat-card>
-    <mat-card-title>
+<mat-card class="container-view">
+    <!-- <mat-card-title>
         Excluir Produto
     </mat-card-title>
 
@@ -22,6 +22,31 @@
         <button mat-raised-button (click)="cancel()">
             Cancelar
         </button>
-    </div>
-</mat-card>
+    </div> -->
+    <form class="container-form">
+        <section class="section-input">
+            <div class="container-input">
+                <input type="input" class="customize-input" placeholder="Name" [value]="product.name" name="name" disabled>
+                <label for="name" class="customize-label"> Nome do produto</label>
+            </div>
+        </section>
 
+        <section class="section-input">
+            <div class="container-input">
+                <input type="input" class="customize-input" placeholder="Price"  [value]="product.price" name="price" disabled>
+                <label for="name" class="customize-label">Preço do produto</label>
+            </div>
+        </section>
+
+        <section class="container-btn">
+            <button class="customize-buttons" id="confirm" id="btn_delete" (click)="deleteProduct()" color="">
+                Deletar
+            </button>
+
+            <button class="customize-buttons" id="cancel" (click)="cancel()">
+                Cancelar
+            </button>
+        </section>
+    </form>
+
+</mat-card>

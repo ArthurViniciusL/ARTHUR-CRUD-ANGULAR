@@ -1,3 +1,6 @@
-p {
-    color: black;
+/* frontend/src/app/components/product/styles/... */
+
+#btn_delete {
+    margin-right: 35px;
+    background-color: #ff0000;
 }
