@@ -2,19 +2,24 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Product } from './../product.model';
 import { ProductService } from './../product.service';
+import { HeaderService } from '../../template/header/header.service';
 
 @Component({
   selector: 'app-product-update',
   templateUrl: './product-update.component.html',
-  styleUrl: './product-update.component.css'
+  styleUrls: ['./product-update.component.css', 'product-update-buttons.component.css', '/src/styles.css']
 })
 export class ProductUpdateComponent implements OnInit {
 
   product: Product = {} as Product;
 
-  constructor(private productService: ProductService, private router: Router, private urlRoute: ActivatedRoute) { }
-
-
+  constructor(private productService: ProductService, private router: Router, private urlRoute: ActivatedRoute, private headerService: HeaderService) {
+    this.headerService.headerData = {
+      title: 'Editar produto',
+      icon: 'edit',
+      routeUrl: ''
+    }
+  }
   ngOnInit(): void {
     // Carregando os dados do produto selecionado.
     // + para converter em inteiro;
@@ -26,7 +31,7 @@ export class ProductUpdateComponent implements OnInit {
 
   updateProduct(): void {
     this.productService.update(this.product).subscribe(() => {
-      this.productService.showMessage('Produto atualizado com sucesso.');
+      this.productService.showMessage('Produto editado com sucesso!');
       this.router.navigate(['/products']);
     })
   }
