@@ -1,5 +1,4 @@
 <div>
-
   <!-- <mat-paginator [length]="100" [pageSize]="10" [pageSizeOptions]="[5, 10, 25, 100]" aria-label="Select page">
   </mat-paginator> -->
 
@@ -26,13 +25,16 @@
     <ng-container matColumnDef="action">
       <th mat-header-cell *matHeaderCellDef>Ações</th>
       <td class="abc" mat-cell *matCellDef="let row">
-        <a routerLink="/products/update/{{row.id}}">
-          <i class="material-icons">edit</i>
-        </a>
-
-        <a routerLink="/products/delete/{{row.id}}">
-          <i class="material-icons">delete</i>
-        </a>
+        <button>
+          <a routerLink="/products/update/{{row.id}}">
+            <i class="material-icons">edit</i>
+          </a>
+        </button>
+        <button>
+          <a routerLink="/products/delete/{{row.id}}">
+            <i class="material-icons">delete</i>
+          </a>
+        </button>
       </td>
     </ng-container>
 

@@ -14,6 +14,10 @@ export class HeaderComponent {
     return this.headerService.headerData.title;
   }
 
+  get titleColor():string {
+    return this.headerService.headerData.titleColor || '';
+  }
+
   get icon():string {
     return this.headerService.headerData.icon;
   }

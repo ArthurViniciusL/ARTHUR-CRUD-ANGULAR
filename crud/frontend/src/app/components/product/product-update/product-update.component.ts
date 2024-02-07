@@ -16,8 +16,9 @@ export class ProductUpdateComponent implements OnInit {
   constructor(private productService: ProductService, private router: Router, private urlRoute: ActivatedRoute, private headerService: HeaderService) {
     this.headerService.headerData = {
       title: 'Editar produto',
+      titleColor: 'var(--crudIconViewBlue)',
       icon: 'edit',
-      routeUrl: ''
+      routeUrl: '/products'
     }
   }
   ngOnInit(): void {

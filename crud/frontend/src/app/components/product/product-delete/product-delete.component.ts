@@ -7,17 +7,18 @@ import { Product } from './../product.model';
 @Component({
   selector: 'app-product-delete',
   templateUrl: './product-delete.component.html',
-  styleUrls: ['./product-delete.component.css', '/src/app/components/product/styles/products-forms-styles.css','/src/app/components/product/styles/products-forms-buttons-styles.css','/src/styles.css']
+  styleUrls: ['./product-delete.component.css', '/src/app/components/product/styles/products-forms-styles.css', '/src/app/components/product/styles/products-forms-buttons-styles.css', '/src/styles.css']
 })
 export class ProductDeleteComponent implements OnInit {
 
   product: Product = {} as Product;
 
-  constructor(private productService: ProductService, private router: Router, private urlRoute: ActivatedRoute, private headerSercvice: HeaderService ) {
+  constructor(private productService: ProductService, private router: Router, private urlRoute: ActivatedRoute, private headerSercvice: HeaderService) {
     this.headerSercvice.headerData = {
       title: 'Excluir produto',
+      titleColor: 'red',
       icon: 'delete',
-      routeUrl: ''
+      routeUrl: '/products'
     }
   }
 
