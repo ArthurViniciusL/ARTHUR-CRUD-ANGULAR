@@ -23,14 +23,15 @@
 
     <!-- Action Column -->
     <ng-container matColumnDef="action">
-      <th mat-header-cell *matHeaderCellDef>Ações</th>
+      <th mat-header-cell *matHeaderCellDef></th>
+
       <td class="abc" mat-cell *matCellDef="let row">
-        <button>
+        <button id="edit" class="customize-buttons">
           <a routerLink="/products/update/{{row.id}}">
             <i class="material-icons">edit</i>
           </a>
         </button>
-        <button>
+        <button id="delete" class="customize-buttons">
           <a routerLink="/products/delete/{{row.id}}">
             <i class="material-icons">delete</i>
           </a>

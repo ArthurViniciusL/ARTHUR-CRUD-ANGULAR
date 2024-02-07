@@ -1,5 +1,6 @@
 table,
 tr {
+
   color: #000000;
   background-color: #ffffff;
 
@@ -7,13 +8,18 @@ tr {
 }
 
 .abc {
-  border-bottom: 0.1px solid red; /* Altere a largura e a cor conforme necessário */
-  
+  border-bottom: 0.1px solid red;
+  /* Altere a largura e a cor conforme necessário */
+
 }
 
 th {
-  border: 0.5px;
+  text-align: center;
   border-radius: 10px;
-  border-color: blue;
-  border-style: solid;
+  /* border-color: 0.6px blue solid; */
+
+}
+
+.customize-buttons {
+  background-color: red;
 }

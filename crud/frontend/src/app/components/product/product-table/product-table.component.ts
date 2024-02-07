@@ -6,7 +6,7 @@ import { ProductService } from '../product.service';
 @Component({
   selector: 'app-product-table',
   templateUrl: './product-table.component.html',
-  styleUrl: './product-table.component.css'
+  styleUrls: ['./product-table.component.css','/src/app/components/product/styles/products-forms-styles.css', '/src/app/components/product/styles/products-forms-buttons-styles.css', '/src/styles.css']
 })
 export class ProductTableComponent implements AfterViewInit {
   @ViewChild(MatPaginator) paginator!: MatPaginator;

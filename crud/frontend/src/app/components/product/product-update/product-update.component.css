@@ -1,1 +1,19 @@
 /* frontend/src/app/components/product/styles/... */
+
+#confirm {
+    margin-right: 35px;
+    background-color: black;
+}
+
+#cancel {
+    background-color: black;
+}
+
+#confirm:hover {
+    background-color: var(--crudIconViewBlue);
+}
+
+#cancel:hover {
+    /* opacity: 1; */
+    background-color: var(--crudIconViewRed);
+}

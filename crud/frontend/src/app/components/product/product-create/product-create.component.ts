@@ -20,7 +20,7 @@ export class ProductCreateComponent implements OnInit {
     this.headerService.headerData = {
       title: 'Cadastrar um novo Produto',
       icon: 'add_circle_outline',
-      routeUrl: ''
+      routeUrl: '/products'
     }
   }
 

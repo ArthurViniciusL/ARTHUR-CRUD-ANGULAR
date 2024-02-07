@@ -16,32 +16,12 @@
     font-weight: bold;
     font-family: var(--crudFontStyle);
     border-radius: var(--crudComponentBorderRadius);
-    background-color: black;
+    background-color: transparent;
 
     transition: all 0.4 ease-out;
 }
 
 .customize-buttons:hover {
     font-size: large;
-}
-
-#confirm {
-    margin-right: 35px;
-    /* opacity: 0.9; */
-}
-
-/* #cancel {
-    opacity: 0.8;
-} */
-
-#confirm:hover {
-    background-color: var(--crudIconViewBlue);
-    /* opacity: 1; */
-
-
-}
-
-#cancel:hover {
-    /* opacity: 1; */
-    background-color: var(--crudIconViewRed);
+    background-color: var(--crudComponentBackground);
 }
