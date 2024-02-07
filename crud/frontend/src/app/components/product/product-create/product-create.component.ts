@@ -18,8 +18,8 @@ export class ProductCreateComponent implements OnInit {
 
   constructor(private productService: ProductService, private router: Router, private headerService: HeaderService) {
     this.headerService.headerData = {
-      title: 'Cadastrar um novo Produto',
-      icon: 'add_circle_outline',
+      title: 'Cadastrar produto',
+      icon: 'arrow_back', //'add_circle_outline'
       routeUrl: '/products'
     }
   }

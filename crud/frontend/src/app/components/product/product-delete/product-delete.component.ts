@@ -17,7 +17,7 @@ export class ProductDeleteComponent implements OnInit {
     this.headerSercvice.headerData = {
       title: 'Excluir produto',
       titleColor: 'red',
-      icon: 'delete',
+      icon: 'arrow_back', // icon: 'delete',
       routeUrl: '/products'
     }
   }

@@ -17,7 +17,7 @@ export class ProductUpdateComponent implements OnInit {
     this.headerService.headerData = {
       title: 'Editar produto',
       titleColor: 'var(--crudIconViewBlue)',
-      icon: 'edit',
+      icon: 'arrow_back',// icon: 'edit',
       routeUrl: '/products'
     }
   }

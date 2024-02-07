@@ -1,8 +1,18 @@
 mat-card {
     background: transparent;
     box-shadow: none;
-    
+
 }
+
+/* mat-toolbar {
+    background-color: transparent;
+}
+
+#btn_back_page {
+    color: var(--crudIconViewYellow);
+    border: none;
+    background: transparent;
+} */
 
 .container-form {
     width: 40%;
@@ -20,7 +30,7 @@ mat-card {
 
 .container-input {
     padding: 20px;
-    border-radius:  var(--crudComponentBorderRadius);
+    border-radius: var(--crudComponentBorderRadius);
     background-color: var(--crudBackgroundColor);
 }
 
@@ -80,4 +90,3 @@ mat-card {
 .customize-input:invalid {
     box-shadow: none;
 }
-

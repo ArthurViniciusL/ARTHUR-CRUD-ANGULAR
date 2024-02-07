@@ -3,37 +3,45 @@
   </mat-paginator> -->
 
   <table mat-table [dataSource]="products">
+    <!-- Delete Columm -->
+    <ng-container matColumnDef="delete">
+      <th mat-header-cell *matHeaderCellDef>
+      <td class="customize-table-line" mat-cell *matCellDef="let row">
+
+        <button class="customize-buttons">
+          <a routerLink="/products/delete/{{row.id}}">
+            <mat-icon id="icon_delete" fontIcon="delete"></mat-icon>
+          </a>
+        </button>
+
+      </td>
+    </ng-container>
+
     <!-- Id Column -->
     <ng-container matColumnDef="id">
       <th mat-header-cell *matHeaderCellDef>Código</th>
-      <td class="abc" mat-cell *matCellDef="let row">{{row.id}}</td>
+      <td class="customize-table-line " mat-cell *matCellDef="let row">{{row.id}}</td>
     </ng-container>
 
     <!-- Name Column -->
     <ng-container matColumnDef="name">
-      <th mat-header-cell *matHeaderCellDef>Nome</th>
-      <td class="abc" mat-cell *matCellDef="let row">{{row.name}}</td>
+      <th id="header_columm_name" mat-header-cell *matHeaderCellDef>Nome</th>
+      <td class="customize-table-line " mat-cell *matCellDef="let row">{{row.name}}</td>
     </ng-container>
 
     <!-- Price Column -->
     <ng-container matColumnDef="price">
       <th mat-header-cell *matHeaderCellDef>Preço</th>
-      <td class="abc" mat-cell *matCellDef="let row">{{row.price | currency: 'BRL'}}</td>
+      <td class="customize-table-line" mat-cell *matCellDef="let row">{{row.price | currency: 'BRL'}}</td>
     </ng-container>
 
-    <!-- Action Column -->
-    <ng-container matColumnDef="action">
-      <th mat-header-cell *matHeaderCellDef></th>
-
-      <td class="abc" mat-cell *matCellDef="let row">
-        <button id="edit" class="customize-buttons">
+    <!-- Edit Columm -->
+    <ng-container matColumnDef="edit">
+      <th mat-header-cell *matHeaderCellDef>
+      <td class="customize-table-line" mat-cell *matCellDef="let row">
+        <button class="customize-buttons">
           <a routerLink="/products/update/{{row.id}}">
-            <i class="material-icons">edit</i>
-          </a>
-        </button>
-        <button id="delete" class="customize-buttons">
-          <a routerLink="/products/delete/{{row.id}}">
-            <i class="material-icons">delete</i>
+            <mat-icon id="icon_edit" aria-hidden="false" aria-label="edit-icon" fontIcon="edit"></mat-icon>
           </a>
         </button>
       </td>

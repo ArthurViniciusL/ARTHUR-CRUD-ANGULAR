@@ -12,7 +12,7 @@ export class ProductTableComponent implements AfterViewInit {
   @ViewChild(MatPaginator) paginator!: MatPaginator;
 
   products: Product[] = [];
-  displayedColumns = ['id', 'name', 'price', 'action'];
+  displayedColumns = ['delete','id', 'name', 'price', 'edit'];
 
   constructor(private productService: ProductService) { }
 
