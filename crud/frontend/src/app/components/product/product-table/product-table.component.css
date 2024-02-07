@@ -1,0 +1,21 @@
+
+
+table,
+tr {
+  color: #000000;
+  background-color: #ffffff;
+
+
+}
+
+.abc {
+  border-bottom: 0.1px solid red; /* Altere a largura e a cor conforme necessário */
+  
+}
+
+th {
+  border: 0.5px;
+  border-radius: 10px;
+  border-color: blue;
+  border-style: solid;
+}

@@ -26,8 +26,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
-import { ProductReadComponent } from './components/product/product-read/product-read.component';
-import { ProductReadTableComponent } from './components/product/product-read-table/product-read-table.component';
+
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
@@ -35,6 +34,7 @@ import { ProductUpdateComponent } from './components/product/product-update/prod
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 import { LicenseComponent } from './views/license/license.component';
 import { AboutCrudComponent } from './views/about-crud/about-crud.component';
+import { ProductTableComponent } from './components/product/product-table/product-table.component';
 
 @NgModule({
   declarations: [
@@ -45,12 +45,11 @@ import { AboutCrudComponent } from './views/about-crud/about-crud.component';
     HomeComponent,
     ProductCrudComponent,
     ProductCreateComponent,
-    ProductReadComponent,
-    ProductReadTableComponent,
     ProductUpdateComponent,
     ProductDeleteComponent,
     LicenseComponent,
-    AboutCrudComponent
+    AboutCrudComponent,
+    ProductTableComponent
   ],
   imports: [
     BrowserModule,

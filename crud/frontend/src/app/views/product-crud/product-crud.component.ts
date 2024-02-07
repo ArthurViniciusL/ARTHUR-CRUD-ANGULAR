@@ -22,6 +22,5 @@ export class ProductCrudComponent {
 
   navigateToProductCreate(): void {
     this.router.navigate(['/products/create']);
-    //console.log('works');
   }
 }
