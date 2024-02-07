@@ -5,33 +5,39 @@
   <table mat-table [dataSource]="products">
     <!-- Delete Columm -->
     <ng-container matColumnDef="delete">
-      <th mat-header-cell *matHeaderCellDef>
+      <th mat-header-cell *matHeaderCellDef></th>
       <td class="customize-table-line" mat-cell *matCellDef="let row">
-
         <button class="customize-buttons">
           <a routerLink="/products/delete/{{row.id}}">
             <mat-icon id="icon_delete" fontIcon="delete"></mat-icon>
           </a>
         </button>
+      </td>
+    </ng-container>
 
+    <!-- n columm -->
+    <ng-container matColumnDef="numId">
+      <th mat-header-cell *matHeaderCellDef>n°</th>
+      <td class="customize-table-line" mat-cell *matCellDef="let row = index">
+        {{ row + 1}}
       </td>
     </ng-container>
 
     <!-- Id Column -->
     <ng-container matColumnDef="id">
-      <th mat-header-cell *matHeaderCellDef>Código</th>
+      <th mat-header-cell *matHeaderCellDef>Código do produto</th>
       <td class="customize-table-line " mat-cell *matCellDef="let row">{{row.id}}</td>
     </ng-container>
 
     <!-- Name Column -->
     <ng-container matColumnDef="name">
-      <th id="header_columm_name" mat-header-cell *matHeaderCellDef>Nome</th>
+      <th id="header_columm_name" mat-header-cell *matHeaderCellDef>Nome do produto</th>
       <td class="customize-table-line " mat-cell *matCellDef="let row">{{row.name}}</td>
     </ng-container>
 
     <!-- Price Column -->
     <ng-container matColumnDef="price">
-      <th mat-header-cell *matHeaderCellDef>Preço</th>
+      <th mat-header-cell *matHeaderCellDef>Preço do produto</th>
       <td class="customize-table-line" mat-cell *matCellDef="let row">{{row.price | currency: 'BRL'}}</td>
     </ng-container>
 

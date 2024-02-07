@@ -52,14 +52,3 @@ body {
     /* background-color: #eb8383; */
     background-color: var(--crudBackgroundColor);
 }
-
-.msg-success {
-    background-color: #c2ff67;
-    color: black;
-}
-
-.msg-error {
-    background-color: red;
-    color: black;
-
-}

@@ -13,10 +13,19 @@ tr {
   justify-content: center;
 }
 
-th {
-  height: 50px;
+th {  
+  height: 5%;
+  font-size: larger;
+  font-weight: bolder;
+  font-family: var(--crudFontStyle);
   border-top: 1px solid var(--crudComponentBackground);
   border-bottom: 1px solid black;
+}
+
+td {
+  font-size: medium;
+  font-weight: normal;
+  font-family: var(--crudFontStyle);
 }
 
 #header_columm_name {
