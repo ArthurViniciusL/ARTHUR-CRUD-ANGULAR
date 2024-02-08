@@ -14,6 +14,7 @@ export class HeaderService implements OnInit {
   private _headerData = new BehaviorSubject<HeaderData>({
     title: 'Início',
     icon: 'home',
+    iconMsg:'A',
     routeUrl: ''
   });
 

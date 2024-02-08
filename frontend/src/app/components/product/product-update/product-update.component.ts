@@ -18,6 +18,7 @@ export class ProductUpdateComponent implements OnInit {
       title: 'Editar produto',
       titleColor: 'var(--crudIconViewBlue)',
       icon: 'arrow_back',// icon: 'edit',
+      iconMsg: 'Voltar',
       routeUrl: '/products'
     }
   }

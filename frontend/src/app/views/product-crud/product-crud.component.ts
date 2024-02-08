@@ -16,6 +16,7 @@ export class ProductCrudComponent {
     this.headerService.headerData = {
       title: 'Produtos',
       icon: 'storefront',
+      iconMsg: 'Produtos',
       routeUrl: '/products'
     }
   }

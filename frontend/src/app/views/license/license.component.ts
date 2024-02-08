@@ -12,6 +12,7 @@ export class LicenseComponent {
     this.headerService.headerData = {
       title: 'Licença do projeto',
       icon: 'policy',
+      iconMsg: 'Licença do projeto',
       routeUrl: '/license'
     }
   }

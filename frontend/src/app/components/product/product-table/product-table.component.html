@@ -7,7 +7,8 @@
     <ng-container matColumnDef="delete">
       <th mat-header-cell *matHeaderCellDef></th>
       <td class="customize-table-line" mat-cell *matCellDef="let row">
-        <button class="customize-buttons">
+        <button class="customize-buttons" #tooltip="matTooltip" matTooltip="Excluir"
+        matTooltipPosition="below">
           <a routerLink="/products/delete/{{row.id}}">
             <mat-icon id="icon_delete" fontIcon="delete"></mat-icon>
           </a>
@@ -45,7 +46,8 @@
     <ng-container matColumnDef="edit">
       <th mat-header-cell *matHeaderCellDef>
       <td class="customize-table-line" mat-cell *matCellDef="let row">
-        <button class="customize-buttons">
+        <button class="customize-buttons" #tooltip="matTooltip" matTooltip="Editar"
+        matTooltipPosition="below">
           <a routerLink="/products/update/{{row.id}}">
             <mat-icon id="icon_edit" aria-hidden="false" aria-label="edit-icon" fontIcon="edit"></mat-icon>
           </a>

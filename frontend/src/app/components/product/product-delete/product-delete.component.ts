@@ -18,6 +18,7 @@ export class ProductDeleteComponent implements OnInit {
       title: 'Excluir produto',
       titleColor: 'red',
       icon: 'arrow_back', // icon: 'delete',
+      iconMsg: 'Voltar',
       routeUrl: '/products'
     }
   }
