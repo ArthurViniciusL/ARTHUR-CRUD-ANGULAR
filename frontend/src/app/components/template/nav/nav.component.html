@@ -1,0 +1,54 @@
+<mat-sidenav-container class="nav-container">
+    <!--Ativando a visibilidade da side bar:-->
+    <!-- fixedTopGap="64" -->
+    <mat-sidenav class="customiza-sidenav" mode="side" opened>
+        <mat-nav-list class="nav-list">
+
+            <button class="btns-components-navbar">
+                <a class="content-in-btn" routerLink="/">
+                    <mat-icon class="customize-icon" aria-hidden="false" aria-label="Example home icon"
+                        fontIcon="home"></mat-icon>
+                    <p>Início</p>
+                </a>
+            </button>
+
+            <button class="btns-components-navbar">
+                <a class="content-in-btn" routerLink="/products">
+                    <mat-icon class="customize-icon" aria-hidden="false" aria-label="Example home icon"
+                        fontIcon="storefront"></mat-icon>
+                    <p>Produtos</p>
+                </a>
+            </button>
+
+            <button class="btns-components-navbar">
+                <a class="content-in-btn" routerLink="/license">
+                    <mat-icon class="customize-icon" aria-hidden="false" aria-label="Example home icon"
+                        fontIcon="policy"></mat-icon>
+                    <p>Licença</p>
+                </a>
+            </button>
+
+            <button class="btns-components-navbar">
+                <a class="content-in-btn" routerLink="/about-crud">
+                    <mat-icon class="customize-icon" aria-hidden="false" aria-label="Example home icon"
+                        fontIcon="info"></mat-icon>
+                    <p>Sobre</p>
+                </a>
+            </button>
+
+        </mat-nav-list>
+    </mat-sidenav>
+
+    <!--Menu de exibição-->
+    <mat-sidenav-content class="container-mat-sidenav">
+        <div class="content">
+            <mat-card class="view-container">
+                <app-header></app-header>
+                <span class="container-router-outlet">
+                    <router-outlet><!--product-read--></router-outlet>
+                </span>
+                <app-footer></app-footer>
+            </mat-card>
+        </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>

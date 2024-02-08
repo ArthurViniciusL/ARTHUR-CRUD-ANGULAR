@@ -1,0 +1,55 @@
+table,
+tr {
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/* reutilizando */
+.customize-buttons {
+  max-width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+th {  
+  height: 5%;
+  font-size: larger;
+  font-weight: bolder;
+  font-family: var(--crudFontStyle);
+  border-top: 1px solid var(--crudComponentBackground);
+  border-bottom: 1px solid black;
+}
+
+td {
+  font-size: medium;
+  font-weight: normal;
+  font-family: var(--crudFontStyle);
+}
+
+#header_columm_name {
+  text-align: center;
+}
+
+.customize-table-line {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--crudComponentBackground);
+}
+
+#icon_edit {
+  color: var(--crudIconViewBlue);
+}
+
+#icon_edit:hover {
+  color: black;
+}
+
+#icon_delete {
+  color: var(--crudIconViewRed);
+}
+
+#icon_delete:hover {
+  color: black;
+}

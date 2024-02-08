@@ -1,0 +1,26 @@
+mat-card {
+    margin: 0;
+    box-shadow: none;
+    background: transparent;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-title {
+    width: 35%;
+    color: var(--crudTextColor);
+    text-align: left;
+    line-height: 60px;
+    font-weight: bold;
+    font-size: xxx-large;
+    font-family: var(--crudFontStyle);
+
+}
+
+#angular_logo {
+    width: 16%;
+}

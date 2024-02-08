@@ -1,0 +1,26 @@
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    /* border-radius: var(--crudBorderRadius);
+    background-color: var(--crudSectionColor); */
+}
+
+p {
+    font-size: medium;
+    font-family: var(--crudFontStyle);
+    color: var(--crudTextColor);
+}
+
+a {
+    text-decoration: none;
+    color: var(--crudTextColor);
+    font-weight: bold;
+    text-decoration: underline black;
+}
+
+mat-icon {
+    font-size: small
+}

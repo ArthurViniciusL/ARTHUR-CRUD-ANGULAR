@@ -1,0 +1,22 @@
+<!-- class="mat-elevation-z0" -->
+<mat-toolbar class="header-container">
+    <button class="icons-header-group">
+        <a [routerLink]="routeLink">
+            <!-- :style="color: {{titleColor}};" -->
+            <mat-icon class="customize-header-icon" aria-hidden="false" aria-label="icon"
+                fontIcon="{{icon}}"></mat-icon>
+        </a>
+    </button>
+
+    <h1 class="customize-header-title">
+        <span :style="color: {{titleColor}};">
+            {{title}}
+        </span>
+    </h1>
+
+    <button class="icons-header-group">
+        <a routerLink="/">
+            <img class="my-icon" src="./assets/img/logo-marca.svg" alt="" srcset="">
+        </a>
+    </button>
+</mat-toolbar>

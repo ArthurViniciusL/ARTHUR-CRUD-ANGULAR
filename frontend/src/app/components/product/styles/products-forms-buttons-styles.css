@@ -1,0 +1,27 @@
+.container-btn {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.customize-buttons {
+    border: none;
+    width: 150px;
+    /* width: 125px; */
+    height: 45px;
+    color: #fff;
+    font-size: medium;
+    font-weight: bold;
+    font-family: var(--crudFontStyle);
+    border-radius: var(--crudComponentBorderRadius);
+    background-color: transparent;
+
+    transition: all 0.4 ease-out;
+}
+
+.customize-buttons:hover {
+    font-size: large;
+    background-color: var(--crudComponentBackground);
+}

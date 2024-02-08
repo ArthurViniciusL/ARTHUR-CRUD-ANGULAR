@@ -1,0 +1,164 @@
+{
+  "products": [
+    {
+      "id": "25d5",
+      "name": "Smart TV LG 42 polegadas",
+      "price": "503"
+    },
+    {
+      "id": "7b2d",
+      "name": "Kindle Paperwhite",
+      "price": 700
+    },
+    {
+      "id": "8a1f",
+      "name": "Laptop Dell Inspiron",
+      "price": 1200
+    },
+    {
+      "id": "4c9e",
+      "name": "Headphone Sony WH-1000XM4",
+      "price": 300
+    },
+    {
+      "id": "3e7b",
+      "name": "Smartphone Samsung Galaxy S21",
+      "price": 900
+    },
+    {
+      "id": "9f6a",
+      "name": "Fitness Tracker Fitbit Charge 4",
+      "price": 150
+    },
+    {
+      "id": "2d8c",
+      "name": "Gaming Console PlayStation 5",
+      "price": 600
+    },
+    {
+      "id": "6h5k",
+      "name": "Refrigerator Whirlpool 25 cu. ft.",
+      "price": 1000
+    },
+    {
+      "id": "1p4s",
+      "name": "Digital Camera Canon EOS R5",
+      "price": 2500
+    },
+    {
+      "id": "5g3t",
+      "name": "Wireless Router ASUS RT-AX88U",
+      "price": 300
+    },
+    {
+      "id": "5g3t",
+      "name": "Wireless Router ASUS RT-AX88U",
+      "price": 300
+    },
+    {
+      "id": "1a2b",
+      "name": "Laptop HP Spectre x360",
+      "price": 1200
+    },
+    {
+      "id": "8h7k",
+      "name": "Smartphone Samsung Galaxy S21",
+      "price": 800
+    },
+    {
+      "id": "3p9q",
+      "name": "Smart TV LG OLED C1",
+      "price": 2000
+    },
+    {
+      "id": "6r4e",
+      "name": "Digital Camera Canon EOS R5",
+      "price": 3500
+    },
+    {
+      "id": "2y5z",
+      "name": "Gaming Console PlayStation 5",
+      "price": 500
+    },
+    {
+      "id": "9u8i",
+      "name": "Smartwatch Apple Watch Series 7",
+      "price": 600
+    },
+    {
+      "id": "4o1l",
+      "name": "Bluetooth Earbuds Sony WF-1000XM4",
+      "price": 250
+    },
+    {
+      "id": "7w6x",
+      "name": "External SSD Samsung T5",
+      "price": "154"
+    },
+    {
+      "id": "7w6x",
+      "name": "External SSD Samsung T5",
+      "price": "154"
+    },
+    {
+      "id": "2y9z",
+      "name": "Wireless Gaming Mouse",
+      "price": "45"
+    },
+    {
+      "id": "4a8b",
+      "name": "Bluetooth Earbuds",
+      "price": "79"
+    },
+    {
+      "id": "1c3d",
+      "name": "Smartphone Holder for Car",
+      "price": "15"
+    },
+    {
+      "id": "5e2f",
+      "name": "Portable Bluetooth Speaker",
+      "price": "89"
+    },
+    {
+      "id": "3g4h",
+      "name": "Foldable Laptop Stand",
+      "price": "29"
+    },
+    {
+      "id": "6i7j",
+      "name": "RGB Gaming Keyboard",
+      "price": "99"
+    },
+    {
+      "id": "8k9l",
+      "name": "External Hard Drive 1TB",
+      "price": "79"
+    },
+    {
+      "id": "0m1n",
+      "name": "Smart LED TV 55 inches",
+      "price": "699"
+    },
+    {
+      "id": "2o3p",
+      "name": "Fitness Tracker Watch",
+      "price": "49"
+    },
+    {
+      "id": "4q5r",
+      "name": "Wireless Charging Pad",
+      "price": "25"
+    },
+    {
+      "id": "6s7t",
+      "name": "Digital Camera DSLR",
+      "price": "499"
+    },
+    {
+      "id": "8u9v",
+      "name": "Noise-Canceling Headphones",
+      "price": "129"
+    }
+  ]
+}
