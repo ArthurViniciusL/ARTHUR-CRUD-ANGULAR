@@ -1,11 +1,15 @@
 mat-card {
+    
     margin: 0;
     box-shadow: none;
     background: transparent;
 }
 
-p {
+.container-text {
     width: 80%;
+}
+
+p {    
     text-align: justify;
     font-size: medium;
     font-family: var(--crudFontStyle);
