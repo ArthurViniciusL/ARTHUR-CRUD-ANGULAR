@@ -15,6 +15,7 @@ export class HomeComponent {
     this.headerService.headerData = {
       title: 'Início',
       icon: 'home',
+      iconMsg: 'Início',
       routeUrl: ''
     }
   }

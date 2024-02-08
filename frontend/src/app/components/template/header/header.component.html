@@ -1,6 +1,9 @@
 <!-- class="mat-elevation-z0" -->
 <mat-toolbar class="header-container">
-    <button class="icons-header-group">
+
+    <button class="icons-header-group" #tooltip="matTooltip" matTooltip="{{iconMsg}}"
+        matTooltipPosition="below">
+
         <a [routerLink]="routeLink">
             <!-- :style="color: {{titleColor}};" -->
             <mat-icon class="customize-header-icon" aria-hidden="false" aria-label="icon"

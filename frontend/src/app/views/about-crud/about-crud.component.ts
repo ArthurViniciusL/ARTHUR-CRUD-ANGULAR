@@ -12,6 +12,7 @@ export class AboutCrudComponent {
       this.headerService.headerData = {
         title: 'Sobre o projeto',
         icon: 'info',
+        iconMsg: 'Sobre o projeto',
         routeUrl: '/about-crud'
       }
     } 

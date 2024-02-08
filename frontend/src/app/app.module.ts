@@ -1,5 +1,5 @@
-import { MatIconModule } from '@angular/material/icon';
 import { NgModule } from '@angular/core';
+import { MatIconModule } from '@angular/material/icon';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -27,14 +27,19 @@ import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 
-import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
-import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
+import { MatTableModule } from '@angular/material/table';
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
-import { LicenseComponent } from './views/license/license.component';
-import { AboutCrudComponent } from './views/about-crud/about-crud.component';
 import { ProductTableComponent } from './components/product/product-table/product-table.component';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
+import { AboutCrudComponent } from './views/about-crud/about-crud.component';
+import { LicenseComponent } from './views/license/license.component';
+
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { CdkScrollable } from '@angular/cdk/scrolling';
+import { MatSelectModule } from '@angular/material/select';
+
 
 @NgModule({
   declarations: [
@@ -68,7 +73,10 @@ import { ProductTableComponent } from './components/product/product-table/produc
     MatTableModule,
     MatPaginatorModule,
     MatSortModule,
-    MatIconModule
+    MatIconModule,
+    MatTooltipModule,
+    CdkScrollable,
+    MatSelectModule  
   ],
   providers: [],
   bootstrap: [AppComponent]
