@@ -6,3 +6,6 @@ O que me motivou a o escolher o Angular foi o interesse em explorar seu ecossist
 O uso do JSON Server como emulador de back-end acrescenta uma camada valiosa ao projeto. Isso permitiu a criação de um ambiente simulado para testes e desenvolvimento, viabilizando a execução de operações CRUD sem depender de um servidor real.
 
 Ao longo do processo, enfatizei boas práticas de programação, design responsivo e a implementação de um código limpo e modular. Dessa forma, o projeto não apenas atende às funcionalidades básicas de um CRUD, mas também destaca-se pela organização e legibilidade do código.
+
+
+![plot](./prints/1-print-home.png)
