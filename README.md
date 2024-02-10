@@ -1,5 +1,6 @@
 # CRUD-ANGULAR
 Link para o CRUD: https://arthurviniciusl.github.io/CRUD-ANGULAR/
+OBS: Alguns erros na hospedagem do back-end ainda estão sendo corrigidos. 
 
 
 ## Preview
