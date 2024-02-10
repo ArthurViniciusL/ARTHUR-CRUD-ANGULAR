@@ -5,9 +5,8 @@
   ![plot](./prints/1-print-home.png)
 - Produtos
   ![plot](./prints/2-print-home.png)
-- Licença
   ![plot](./prints/3-print-products.png)
-- Sobre
+- Licença
   ![plot](./prints/4-print-lisence.png)
 ---
 ## Como testar?
