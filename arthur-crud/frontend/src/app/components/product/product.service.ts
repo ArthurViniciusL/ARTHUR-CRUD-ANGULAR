@@ -12,9 +12,9 @@ export class ProductService {
 
   constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
 
-  BASE_URL = 'http://localhost:3001/products';
+  // BASE_URL = 'http://localhost:3001/products';
+  BASE_URL = 'https://crud-angular-api-six.vercel.app/products'
 
-  // , 
   showMessage(msg: string, isError: boolean = false): void {
     this.snackBar.open(msg, 'ⓧ', {
       duration: 30000,
