@@ -39,7 +39,7 @@ OBS: Alguns erros na hospedagem do back-end ainda estão sendo corrigidos.
 
 ---
 ## Sobre
- Este projeto é o fruto do meue estudo e prática com Angular 12. A proposta central aqui foi desenvolver um projeto do tipo CRUD, utilizando o Angular como framework front-end e para simular o comportamento de um servidor back-end, optei por incorporar o JSON Server.
+ Este projeto é o fruto do meu estudo e prática com Angular 12. A proposta central aqui foi desenvolver um projeto do tipo CRUD, utilizando o Angular como framework front-end e para simular o comportamento de um servidor back-end, optei por incorporar o JSON Server.
 
 O que me motivou a o escolher o Angular foi o interesse em explorar seu ecossistema de criação de interfaces interativas e responsivas. A versão 12, à época do desenvolvimento, ofereceu as mais recentes funcionalidades e melhorias, proporcionando um ambiente propício para a criação de aplicações web modernas.
 
