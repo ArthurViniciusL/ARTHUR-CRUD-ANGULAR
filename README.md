@@ -8,10 +8,9 @@ OBS: Alguns erros na hospedagem do back-end ainda estão sendo corrigidos.
 - Início
   ![plot](./prints/1-print-home.png)
 - Produtos
-  ![plot](./prints/2-print-home.png)
-  ![plot](./prints/3-print-products.png)
+  ![plot](./prints/2-print-products.png)
 - Licença
-  ![plot](./prints/4-print-lisence.png)
+  ![plot](./prints/3-print-lisence.png)
 ---
 ## Como testar?
 1. Primeiro você deverá ter o node e o npm instalados no seu sistema.
